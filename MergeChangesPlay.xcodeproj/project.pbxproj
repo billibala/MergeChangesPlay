@@ -15,6 +15,7 @@
 		A9DEF57022B700F500FB46AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DEF56F22B700F500FB46AA /* Assets.xcassets */; };
 		A9DEF57322B700F600FB46AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DEF57122B700F600FB46AA /* LaunchScreen.storyboard */; };
 		A9DEF57E22B700F600FB46AA /* MergeChangesPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DEF57D22B700F600FB46AA /* MergeChangesPlayTests.swift */; };
+		A9DEF58922B7388100FB46AA /* XCTestCase+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DEF58822B7388100FB46AA /* XCTestCase+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A9DEF57922B700F600FB46AA /* MergeChangesPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeChangesPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DEF57D22B700F600FB46AA /* MergeChangesPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeChangesPlayTests.swift; sourceTree = "<group>"; };
 		A9DEF57F22B700F600FB46AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DEF58822B7388100FB46AA /* XCTestCase+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				A9DEF57D22B700F600FB46AA /* MergeChangesPlayTests.swift */,
 				A9DEF57F22B700F600FB46AA /* Info.plist */,
+				A9DEF58822B7388100FB46AA /* XCTestCase+Utility.swift */,
 			);
 			path = MergeChangesPlayTests;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DEF57E22B700F600FB46AA /* MergeChangesPlayTests.swift in Sources */,
+				A9DEF58922B7388100FB46AA /* XCTestCase+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
